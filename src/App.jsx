@@ -1,3 +1,4 @@
+import Questions from './components/Questions';
 import Title from './components/Title';
 
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
     <main>
       <section className="container">
         <Title />
+        <Questions />
       </section>
     </main>
   );
