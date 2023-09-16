@@ -1,4 +1,12 @@
+import Title from './components/Title';
+
 const App = () => {
-  return <h2>Accordion Starter</h2>;
+  return (
+    <main>
+      <section className="container">
+        <Title />
+      </section>
+    </main>
+  );
 };
 export default App;
